@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(205, 96, 13, 0.6);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    background-color: rgba(1217, 118, 42, 0.9);
+
+}
+
+.main {
+    display: flex;
+    flex: 0.8;
+}
+
+.info_container ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 300px;
+}
+
+
+li{
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.sidebar > h2 {
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.image_container {
+    margin-top: 25px;
+    flex: 0.3;
+    background-image: url('./images/profile.jpg');
+    background-position: center;
+    clip-path: circle();
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.sidebar_menu {
+   display: flex;
+   flex-direction: column;
+   flex: 0.5;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
